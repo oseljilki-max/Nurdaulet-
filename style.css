@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 12vh;
+    padding: 0 10vw;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100%;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+}
+
+nav>a {
+    font-size: 1vw;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid transparent;
+    transition: 0.5s all ease;
+}
+
+nav>a:hover {
+    border-bottom-color: white ;
+}
+
+.main {
+    background-image: url("./furt/mmerr/58720a47-7154-461a-a96d-14ae50c5026e.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #A1A1A1;
+    border: none;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 88vh;
+    color: white;
+    gap: 5vh;
+}
+
+.main-content>h2 {
+    font-size: 1.2vw;
+    font-weight: 200;
+}
+
+.main-content>h1 {
+    font-size: 3.5vw;
+    font-weight: 900;
+    text-align: center;
+}
+
+.main-button {
+    color: white;
+    width: 12vw;
+    height: 4vw;
+    font-size: 1.2vw;
+    background-color: #4985FF;
+    border: none;
+    border-radius: 50px;
+}
